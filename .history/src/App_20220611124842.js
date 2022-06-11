@@ -1,10 +1,12 @@
 import './App.css';
-import Cursor from './Cursor/Cursor';
+import Link from './Link';
+import Cursor from './Cursor';
 
 function App() {
   return (
     <div className="App">
         <Cursor/>
+        <Link/>
     </div>
   );
 }

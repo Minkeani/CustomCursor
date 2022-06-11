@@ -1,5 +1,5 @@
 import './App.css';
-import Cursor from './Cursor/Cursor';
+import Cursor from './Cursor';
 
 function App() {
   return (

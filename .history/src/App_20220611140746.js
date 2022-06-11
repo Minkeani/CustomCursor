@@ -5,6 +5,9 @@ function App() {
   return (
     <div className="App">
         <Cursor/>
+        <Cursor/>
+        <Cursor/><Cursor/><Cursor/>
+        <Cursor/>
     </div>
   );
 }

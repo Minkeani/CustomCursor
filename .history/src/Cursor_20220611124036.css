@@ -1,0 +1,6 @@
+.cursor-dot,
+.cursor-dot-outline {
+    pointer-events: none;
+    position: absolute;
+    
+}

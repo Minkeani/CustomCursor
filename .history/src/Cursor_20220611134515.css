@@ -1,0 +1,37 @@
+.cursor-dot,
+.cursor-dot-outline {
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    opacity: 1;
+    transition: opacity .3s ease-in-out, transform .3s ease-in-out;
+}
+
+.cursor-dot {
+    width: 8px;
+    height: 8px;
+    background-color: red;
+}
+
+.cursor-dot-outline {
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px dashed red;
+    margin: 0;
+    padding: 0;
+    animation: twist  .3s infinite ease-in-out;
+
+}
+
+@keyframes twist {
+    from {transform: rotate(0deg)}
+    to {transform: rotate(360deg)}
+    
+}
+
+
+    
